@@ -22,7 +22,7 @@ const SearchBar: React.FC<SearchBarProps> = ({   // getting the search data as p
   }, [searchTerm, onSearch]);
 
   return (
-    <div className="max-w-2xl mx-auto mb-8 transform transition-all duration-500 hover:scale-105">
+    <div className="max-w-2xl mx-auto mb-8 transform transition-all duration-500 hover:scale-105 pt-3.5">
       <div className="relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
         <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
           <Search className="h-5 w-5 text-gray-400" />

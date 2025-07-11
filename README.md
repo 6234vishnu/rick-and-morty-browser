@@ -24,6 +24,10 @@ A web application that allows users to browse and search through Rick and Morty 
 
 - [Rick and Morty API](https://rickandmortyapi.com/)
 
+##  Live Link on vercel
+
+- Live :  https://rick-and-morty-browser-git-main-vishnu-anils-projects.vercel.app/
+
 ## 🧰 Getting Started
 
 ### 1. Clone the repository
@@ -31,3 +35,4 @@ A web application that allows users to browse and search through Rick and Morty 
 ```bash
 git clone https://github.com/6234vishnu/rick-and-morty-browser.git
 cd YOUR_REPO_NAME
+

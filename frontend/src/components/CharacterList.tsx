@@ -107,9 +107,10 @@ const CharacterList: React.FC = () => {
 
   return (
     <div className="min-h-screen w-screen bg-white">
-      <div className="fixed inset-0 bg-gradient-to-br from-gray-50 to-gray-100 -z-10" />
-      <SearchBar onSearch={setSearchTerm} />
+     <div className="fixed inset-0 bg-gradient-to-br from-gray-50 to-gray-100 -z-10  h-full"></div>
 
+
+      <SearchBar onSearch={setSearchTerm} />
       <div className="max-w-7xl mx-auto text-center mb-8 transform transition-all duration-700 hover:scale-105">
         <h1 className="text-4xl font-bold text-black mb-2">
           Rick and Morty Characters
